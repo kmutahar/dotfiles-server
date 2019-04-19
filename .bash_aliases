@@ -33,6 +33,8 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias -- -="cd -"   # Go to previous dir with -
 
+alias dotfiles="cd /home/ubuntu/.dotfiles"
+
 # Concatenate and print content of files (add line numbers)
 alias catn="cat -n"
 
@@ -47,10 +49,10 @@ alias sysinfo="landscape-sysinfo"
 
 # Update
 alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade"
-alias updatefzf="cd ~/.fzf && git pull && ./install"
+alias updatefzf="cd /home/ubuntu/.fzf && git pull && ./install"
 
 
 # Aliases used for Ghost server
 alias wwwg="cd /var/www/ghost/"
-alias pullg="cd ~/mutahar.me-ghost-theme && git pull && cd /var/www/ghost && ghost restart"
-alias theme="cd ~/mutahar.me-ghost-theme"
+alias pullg="cd /home/ubuntu/mutahar.me-ghost-theme && git pull && cd /var/www/ghost && ghost restart"
+alias theme="cd /home/ubuntu/mutahar.me-ghost-theme"
