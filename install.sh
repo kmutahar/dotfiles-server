@@ -22,7 +22,10 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 # Install MEGA
-wget  https://mega.nz/linux/MEGAsync/xUbuntu_18.04/amd64/megacmd-xUbuntu_18.04_amd64.deb && sudo apt install ./megacmd-xUbuntu_18.04_amd64.deb 
+wget https://mega.nz/linux/MEGAsync/xUbuntu_18.04/amd64/megacmd-xUbuntu_18.04_amd64.deb && sudo apt install ./megacmd-xUbuntu_18.04_amd64.deb
+
+# Install youtube-dl
+sudo apt-get install youtube-dl -y
 
 # symlink files
 ln -sf ~/.dotfiles/zshrc ~/.zshrc
