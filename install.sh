@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update Timezone
+sudo timedatectl set-timezone Asia/Aden
+
 # Update Server
 sudo apt-get update
 sudo apt-get upgrade -y
