@@ -1,4 +1,6 @@
-# Aliases used no matter what server is used for
+# Shortcuts
+alias sha256="shasum -a 256"
+alias sha512="shasum -a 512"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -47,8 +49,10 @@ fi
 # Get system info
 alias sysinfo="landscape-sysinfo"
 
-# Update
-alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade"
+# Update/Upgrade Commands
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"
+alias updatethefuck="pip3 install thefuck --upgrade #thefuck"
 alias updatefzf="cd /home/ubuntu/.fzf && git pull && ./install"
 
 
