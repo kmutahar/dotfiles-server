@@ -8,11 +8,6 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
-# Setup zsh with ohmyzsh
-sudo apt install zsh -y
-sudo chsh -s /bin/zsh ubuntu 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # Install The Fuck
 sudo apt install python3-dev python3-pip python3-setuptools -y
 sudo pip3 install thefuck
@@ -27,8 +22,13 @@ sudo apt install ./megacmd-xUbuntu_18.04_amd64.deb -y
 rm megacmd-xUbuntu_18.04_amd64.deb
 
 # Install youtube-dl
-sudo apt-get install python-pip
+sudo apt-get install python-pip -y
 sudo pip install --upgrade youtube_dl
 
 # symlink files
 ln -sf ~/.dotfiles/zshrc ~/.zshrc
+
+# Setup zsh with ohmyzsh
+sudo apt install zsh -y
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo chsh -s /bin/zsh ubuntu 
