@@ -9,7 +9,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 # Setup zsh with ohmyzsh
-sudo apt install zsh
+sudo apt install zsh -y
 sudo chsh -s /bin/zsh ubuntu 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
