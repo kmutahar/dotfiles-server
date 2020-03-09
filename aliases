@@ -64,4 +64,4 @@ alias ghostupdate="sudo npm install -g ghost-cli@latest && cd /var/www/ghost/ &&
 
 
 # YouTube-dl
-alias ytdl="YouTube-dl"
+alias ytdl="youtube-dl"
