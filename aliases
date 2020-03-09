@@ -61,3 +61,7 @@ alias wwwg="cd /var/www/ghost/"
 alias pullg="cd /home/ubuntu/mutahar.me-ghost-theme && git pull && cd /var/www/ghost && ghost restart"
 alias theme="cd /home/ubuntu/mutahar.me-ghost-theme"
 alias ghostupdate="sudo npm install -g ghost-cli@latest && cd /var/www/ghost/ && ghost update"
+
+
+# YouTube-dl
+alias ytdl="YouTube-dl"
