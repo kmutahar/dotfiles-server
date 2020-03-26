@@ -103,5 +103,6 @@ source $ZSH/oh-my-zsh.sh
 ###########################
 
 [ -f ~/.dotfiles/aliases ] && source ~/.dotfiles/aliases # Loads custom aliases
+[ -f ~/.dotfiles/functions ] && source ~/.dotfiles/functions # Loads custom functions
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Loads fzf
 eval $(thefuck --alias)

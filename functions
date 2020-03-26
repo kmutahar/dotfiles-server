@@ -1,0 +1,3 @@
+function gdrive() {
+    wget -x --load-cookies cookies.txt -O $2 'https://docs.google.com/uc?export=download&id='$1
+}
