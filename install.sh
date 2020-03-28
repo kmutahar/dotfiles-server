@@ -25,10 +25,13 @@ rm megacmd-xUbuntu_18.04_amd64.deb
 sudo apt-get install python-pip -y
 sudo pip install --upgrade youtube_dl
 
-# symlink files
-ln -sf ~/.dotfiles/zshrc ~/.zshrc
+# Install unrar
+sudo apt install unrar -y
 
 # Setup zsh with ohmyzsh
 sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo chsh -s /bin/zsh ubuntu 
+
+# symlink files
+ln -sf ~/.dotfiles/zshrc ~/.zshrc
