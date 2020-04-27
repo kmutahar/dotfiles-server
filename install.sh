@@ -16,18 +16,6 @@ sudo pip3 install thefuck
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
-# Install MEGA
-wget https://mega.nz/linux/MEGAsync/xUbuntu_18.04/amd64/megacmd-xUbuntu_18.04_amd64.deb
-sudo apt install ./megacmd-xUbuntu_18.04_amd64.deb -y
-rm megacmd-xUbuntu_18.04_amd64.deb
-
-# Install youtube-dl
-sudo apt-get install python-pip -y
-sudo pip install --upgrade youtube_dl
-
-# Install unrar
-sudo apt install unrar -y
-
 # Setup zsh with ohmyzsh
 sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
