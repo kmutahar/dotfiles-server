@@ -64,3 +64,7 @@ alias ghostupdate="sudo npm install -g ghost-cli@latest && cd /var/www/ghost/ &&
 
 # YouTube-dl
 alias ytdl="youtube-dl"
+
+# LazyGit
+alias lg='lazygit'
+
