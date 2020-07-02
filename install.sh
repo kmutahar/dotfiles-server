@@ -3,6 +3,9 @@
 # Update Timezone
 sudo timedatectl set-timezone Asia/Aden
 
+## Insure that dotfiles submodules are loaded
+cd ~/.dotfiles && git submodule update --init --recursive
+
 # Update Server
 sudo apt-get update
 sudo apt-get upgrade -y
