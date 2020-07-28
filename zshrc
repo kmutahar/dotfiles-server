@@ -27,7 +27,7 @@ ZSH_THEME="bira"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to automatically update without prompting.
-  DISABLE_UPDATE_PROMPT="true"
+DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -61,7 +61,7 @@ ZSH_THEME="bira"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-  ZSH_CUSTOM=/home/ubuntu/.dotfiles/ohmyzsh-custom
+ZSH_CUSTOM=/home/ubuntu/.dotfiles/ohmyzsh-custom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*

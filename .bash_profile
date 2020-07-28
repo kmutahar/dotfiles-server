@@ -1,11 +1,11 @@
 # Source PS1 from main user (ubuntu)
 if [ -f /home/ubuntu/.dotfiles/.bashrc ]; then
-    . /home/ubuntu/.dotfiles/.bashrc
+  . /home/ubuntu/.dotfiles/.bashrc
 fi
 
 # Source aliases from main user (ubuntu)
 if [ -f /home/ubuntu/.dotfiles/.bash_aliases ]; then
-    . /home/ubuntu/.dotfiles/.bash_aliases
+  . /home/ubuntu/.dotfiles/.bash_aliases
 fi
 
 
