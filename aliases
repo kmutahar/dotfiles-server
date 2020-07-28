@@ -58,7 +58,7 @@ alias updatefzf="cd /home/ubuntu/.fzf && git pull && ./install"
 
 # Aliases used for Ghost server
 alias wwwg="cd /var/www/ghost/"
-alias theme="cd /home/ubuntu/mutahar.me-ghost-theme"
+alias theme="cd /var/www/ghost/content/themes/casper-MTHR"
 alias ghostupdate="sudo npm install -g ghost-cli@latest && cd /var/www/ghost/ && ghost update"
 
 
