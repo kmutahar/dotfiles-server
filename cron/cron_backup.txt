@@ -1,0 +1,3 @@
+MAILTO=""
+
+01 3 * * * ~/.dotfiles/cron/daily-update.sh >>  ~/.log/`/bin/date +\%Y_\%m_\%d`_daily-update.log 2>&1
