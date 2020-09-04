@@ -30,3 +30,6 @@ sudo apt-get install lazygit
 
 # symlink files
 ln -sf ~/.dotfiles/zshrc ~/.zshrc
+
+# create user log folder
+mkdir ~/.log
